@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- DEMO: название компании и город заменить на реальные -->
+  <title>Эвакуатор 24/7 - EVAK PRO | Эвакуация автомобилей круглосуточно</title>
+  <meta name="description" content="Круглосуточный эвакуатор: быстрая подача, бережная погрузка и предварительный расчёт стоимости. Эвакуация после поломки и ДТП, перевозка легковых авто, кроссоверов и внедорожников, междугородняя перевозка.">
+  <meta name="keywords" content="эвакуатор, эвакуатор 24/7, эвакуация автомобиля, вызвать эвакуатор, эвакуатор после ДТП, междугородняя перевозка авто">
+  <meta name="theme-color" content="#131518">
+  <meta name="robots" content="noindex, nofollow"><!-- DEMO: убрать noindex после публикации реального сайта -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Эвакуатор 24/7 - помощь на дороге | EVAK PRO">
+  <meta property="og:description" content="Быстрая подача, безопасная перевозка и предварительный расчёт стоимости.">
+  <meta property="og:image" content="assets/img/hero-tow-truck.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/img/hero-tow-truck.jpg" imagesrcset="assets/img/hero-tow-truck-960.jpg 960w, assets/img/hero-tow-truck.jpg 1920w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- DEMO: структурированные данные - заполнить реальными реквизитами -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutomotiveBusiness",
+    "name": "EVAK PRO",
+    "description": "Круглосуточная эвакуация автомобилей",
+    "telephone": "+7-999-000-00-00",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "от 1500 ₽"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Иконки (SVG-спрайт) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></g></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-calc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="4" y="2.5" width="16" height="19" rx="2.5"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></g></symbol>
+    <symbol id="i-lifebuoy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="m5.6 5.6 3.6 3.6m5.6 5.6 3.6 3.6m0-12.8-3.6 3.6m-5.6 5.6-3.6 3.6"/></g></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="13" width="4" height="6" rx="1.5"/><rect x="17" y="13" width="4" height="6" rx="1.5"/><path d="M19 19c0 1.7-2 3-5 3h-1.5"/></g></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L22 13.6a7 7 0 0 1-9.2 1.9L6 22.3a2.1 2.1 0 0 1-3-3l6.8-6.8a7 7 0 0 1 1.9-9.2L14 5.6a4 4 0 0 0 .7.7z"/></symbol>
+    <symbol id="i-crash" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 19.5h19z"/><path d="M12 10v4.5M12 17.5h.01"/></g></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3.5a1 1 0 0 1-1-1v-3.2a2 2 0 0 1 .6-1.4L5 9.5l1.7-3.4A2 2 0 0 1 8.5 5h7a2 2 0 0 1 1.8 1.1L19 9.5l1.9 1.9a2 2 0 0 1 .6 1.4V16a1 1 0 0 1-1 1H19"/><path d="M5 9.5h14M9 17h6"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></g></symbol>
+    <symbol id="i-suv" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a1 1 0 0 1-1-1v-4l2-6.2A1.2 1.2 0 0 1 5.2 5H16l3.5 5H21a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-2"/><path d="M2.5 10H19.5M11 5v5M9 17h6"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></g></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H17a3.5 3.5 0 0 0 0-7H7a3.5 3.5 0 0 1 0-7h8.5"/></g></symbol>
+    <symbol id="i-winch" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M5 20V9l5-5h2v5"/><path d="M12 9v4"/><path d="M10 13h4l-1 3h-2z"/><path d="M16 20v-3a2 2 0 0 1 2-2h1"/></g></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 16V7a1 1 0 0 1 1-1H13v10"/><path d="M13 9h4.5l3.5 4v3h-2"/><path d="M1.5 16H4m5 0h6"/><circle cx="6.5" cy="16.5" r="2"/><circle cx="17" cy="16.5" r="2"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V4"/><path d="M4 4h13l-2 4 2 4H4"/></g></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></g></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.2l-4.8-1.5c-1-.3-1.1-1 .2-1.5L20.4 3c.9-.3 1.7.2 1.5 1.3z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></g></symbol>
+  </svg>
+
+  <!-- Плашка демо-режима -->
+  <div class="demo-ribbon" role="note">
+    <div class="container demo-ribbon__inner">
+      <span class="demo-ribbon__tag">DEMO</span>
+      <span>Демонстрационная версия сайта. Название, контакты и цены - примеры, заявки никуда не отправляются.</span>
+    </div>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="EVAK PRO - на главную">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="currentColor"/><path d="M8 26V15.5a1.5 1.5 0 0 1 1.5-1.5H20v12M20 18h5.5l4.5 5v3h-2.5M8 26h2.5m6 0h5" fill="none" stroke="#131518" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="13.5" cy="27" r="2.6" fill="none" stroke="#131518" stroke-width="2.4"/><circle cx="25" cy="27" r="2.6" fill="none" stroke="#131518" stroke-width="2.4"/></svg>
+        </span>
+        <span class="logo__text">EVAK<b>PRO</b></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">Услуги</a></li>
+          <li><a href="#prices" class="nav__link">Цены</a></li>
+          <li><a href="#about" class="nav__link">О нас</a></li>
+          <li><a href="#steps" class="nav__link">Как работаем</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+        <div class="nav__mobile-extra">
+          <a href="tel:+79990000000" class="nav__phone">+7 (999) 000-00-00</a>
+          <span class="demo-note">демо-номер · круглосуточно</span>
+          <a href="#order" class="btn btn--primary btn--block" data-intent="call">Вызвать эвакуатор</a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+79990000000" class="header__phone">
+          <span class="header__phone-num">+7 (999) 000-00-00</span>
+          <span class="header__phone-note"><i class="dot"></i>24/7 · демо-номер</span>
+        </a>
+        <a href="#order" class="btn btn--primary btn--sm header__cta" data-intent="call">Вызвать</a>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Первый экран -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/img/hero-tow-truck.jpg"
+             srcset="assets/img/hero-tow-truck-960.jpg 960w, assets/img/hero-tow-truck.jpg 1920w"
+             sizes="100vw" width="1920" height="1079"
+             alt="" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__grid-lines" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__badge"><i class="dot dot--pulse"></i>Принимаем заявки круглосуточно</p>
+          <h1 class="hero__title" id="hero-title">Эвакуатор <span class="accent">24/7</span>: помощь на&nbsp;дороге</h1>
+          <p class="hero__lead">Оперативно подаём эвакуатор, бережно грузим и&nbsp;безопасно доставляем автомобиль. Стоимость рассчитаем заранее - до&nbsp;выезда, без сюрпризов на&nbsp;месте.</p>
+
+          <div class="hero__buttons">
+            <a href="#order" class="btn btn--primary btn--lg" data-intent="call">
+              Вызвать эвакуатор
+              <svg class="btn__icon"><use href="#i-arrow"/></svg>
+            </a>
+            <a href="#order" class="btn btn--ghost btn--lg" data-intent="calc">
+              <svg class="btn__icon"><use href="#i-calc"/></svg>
+              Рассчитать стоимость
+            </a>
+          </div>
+
+          <a href="tel:+79990000000" class="hero__phone">
+            <span class="hero__phone-icon"><svg><use href="#i-phone"/></svg></span>
+            <span>
+              <span class="hero__phone-label">Диспетчер на связи 24/7 <em class="demo-chip">демо-номер</em></span>
+              <span class="hero__phone-num">+7 (999) 000-00-00</span>
+            </span>
+          </a>
+        </div>
+
+        <ul class="hero__features" aria-label="Коротко о нас">
+          <li><svg><use href="#i-clock"/></svg><span><b>Круглосуточно</b>без выходных и праздников</span></li>
+          <li><svg><use href="#i-calc"/></svg><span><b>Цена заранее</b>предварительный расчёт</span></li>
+          <li><svg><use href="#i-shield"/></svg><span><b>Бережно</b>надёжная фиксация авто</span></li>
+        </ul>
+      </div>
+
+      <a href="#services" class="hero__scroll" aria-label="Прокрутить к услугам"><span></span></a>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Услуги</p>
+          <h2 class="section-title" id="services-title">Эвакуируем в любой ситуации</h2>
+          <p class="section-lead">Подберём подходящий эвакуатор и способ погрузки под ваш автомобиль и обстоятельства.</p>
+        </header>
+
+        <div class="services">
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-wrench"/></svg></div>
+            <h3 class="service-card__title">Эвакуация после поломки</h3>
+            <p class="service-card__text">Не заводится, отказала коробка или подвеска - доставим автомобиль в&nbsp;сервис, гараж или к&nbsp;дому.</p>
+            <a href="#order" class="service-card__link" data-intent="call" data-service="Эвакуация после поломки">Оставить заявку <svg><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-crash"/></svg></div>
+            <h3 class="service-card__title">Эвакуация после ДТП</h3>
+            <p class="service-card__text">Аккуратно погрузим повреждённый автомобиль, в&nbsp;том числе не&nbsp;на&nbsp;ходу, и&nbsp;доставим по&nbsp;нужному адресу.</p>
+            <a href="#order" class="service-card__link" data-intent="call" data-service="Эвакуация после ДТП">Оставить заявку <svg><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-car"/></svg></div>
+            <h3 class="service-card__title">Перевозка легковых автомобилей</h3>
+            <p class="service-card__text">Седаны, хэтчбеки, универсалы и&nbsp;низкие авто - перевозка на&nbsp;платформе с&nbsp;надёжной фиксацией колёс.</p>
+            <a href="#order" class="service-card__link" data-intent="call" data-service="Перевозка легкового автомобиля">Оставить заявку <svg><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-suv"/></svg></div>
+            <h3 class="service-card__title">Внедорожники и&nbsp;кроссоверы</h3>
+            <p class="service-card__text">Учитываем массу и&nbsp;габариты автомобиля, подбираем эвакуатор с&nbsp;подходящей грузоподъёмностью.</p>
+            <a href="#order" class="service-card__link" data-intent="call" data-service="Эвакуация внедорожника / кроссовера">Оставить заявку <svg><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-route"/></svg></div>
+            <h3 class="service-card__title">Междугородняя перевозка</h3>
+            <p class="service-card__text">Перевезём автомобиль в&nbsp;другой город. Маршрут и&nbsp;стоимость согласуем заранее.</p>
+            <a href="#order" class="service-card__link" data-intent="calc" data-service="Междугородняя перевозка">Рассчитать <svg><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><svg><use href="#i-winch"/></svg></div>
+            <h3 class="service-card__title">Сложная погрузка</h3>
+            <p class="service-card__text">Заблокированные колёса, подземный паркинг, кювет или&nbsp;низкий клиренс - найдём решение.</p>
+            <a href="#order" class="service-card__link" data-intent="call" data-service="Сложная погрузка">Оставить заявку <svg><use href="#i-arrow"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Цены -->
+    <!-- DEMO: цены - примеры из ТЗ, заменить после согласования с заказчиком -->
+    <section class="section section--alt" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Цены</p>
+          <h2 class="section-title" id="prices-title">Понятные тарифы</h2>
+          <p class="section-lead">Стартовая стоимость эвакуации по&nbsp;типу автомобиля. Точную цену диспетчер назовёт до&nbsp;выезда.</p>
+        </header>
+
+        <div class="prices">
+          <article class="price-card reveal">
+            <div class="price-card__head">
+              <svg class="price-card__icon"><use href="#i-car"/></svg>
+              <h3 class="price-card__title">Легковой автомобиль</h3>
+            </div>
+            <p class="price-card__price"><span>от</span> 1&nbsp;500&nbsp;<small>₽</small></p>
+            <ul class="price-card__list">
+              <li><svg><use href="#i-check"/></svg>Подача эвакуатора</li>
+              <li><svg><use href="#i-check"/></svg>Погрузка и&nbsp;фиксация</li>
+              <li><svg><use href="#i-check"/></svg>Перевозка по&nbsp;городу</li>
+            </ul>
+            <a href="#order" class="btn btn--outline btn--block" data-intent="calc" data-car="Легковой">Рассчитать</a>
+          </article>
+
+          <article class="price-card price-card--accent reveal">
+            <div class="price-card__head">
+              <svg class="price-card__icon"><use href="#i-suv"/></svg>
+              <h3 class="price-card__title">Кроссовер</h3>
+            </div>
+            <p class="price-card__price"><span>от</span> 2&nbsp;000&nbsp;<small>₽</small></p>
+            <ul class="price-card__list">
+              <li><svg><use href="#i-check"/></svg>Подача эвакуатора</li>
+              <li><svg><use href="#i-check"/></svg>Погрузка и&nbsp;фиксация</li>
+              <li><svg><use href="#i-check"/></svg>Перевозка по&nbsp;городу</li>
+            </ul>
+            <a href="#order" class="btn btn--primary btn--block" data-intent="calc" data-car="Кроссовер">Рассчитать</a>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-card__head">
+              <svg class="price-card__icon"><use href="#i-truck"/></svg>
+              <h3 class="price-card__title">Внедорожник</h3>
+            </div>
+            <p class="price-card__price"><span>от</span> 2&nbsp;500&nbsp;<small>₽</small></p>
+            <ul class="price-card__list">
+              <li><svg><use href="#i-check"/></svg>Эвакуатор нужной грузоподъёмности</li>
+              <li><svg><use href="#i-check"/></svg>Погрузка и&nbsp;фиксация</li>
+              <li><svg><use href="#i-check"/></svg>Перевозка по&nbsp;городу</li>
+            </ul>
+            <a href="#order" class="btn btn--outline btn--block" data-intent="calc" data-car="Внедорожник">Рассчитать</a>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-card__head">
+              <svg class="price-card__icon"><use href="#i-route"/></svg>
+              <h3 class="price-card__title">Межгород</h3>
+            </div>
+            <p class="price-card__price price-card__price--text">от&nbsp;35&nbsp;₽/км <small>точно - по маршруту</small></p>
+            <ul class="price-card__list">
+              <li><svg><use href="#i-check"/></svg>Расчёт по&nbsp;маршруту</li>
+              <li><svg><use href="#i-check"/></svg>Согласование заранее</li>
+              <li><svg><use href="#i-check"/></svg>Доставка до&nbsp;адреса</li>
+            </ul>
+            <a href="#order" class="btn btn--outline btn--block" data-intent="calc" data-service="Междугородняя перевозка">Узнать цену</a>
+          </article>
+        </div>
+
+        <div class="price-note reveal">
+          <svg><use href="#i-calc"/></svg>
+          <p><b>Окончательная стоимость</b> зависит от&nbsp;расстояния, массы автомобиля и&nbsp;сложности погрузки. Диспетчер рассчитает цену по&nbsp;вашей заявке и&nbsp;согласует её до&nbsp;выезда эвакуатора.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about__media reveal">
+          <picture>
+            <img src="assets/img/about-tow-truck.jpg"
+                 srcset="assets/img/about-tow-truck-640.jpg 640w, assets/img/about-tow-truck.jpg 1040w"
+                 sizes="(max-width: 900px) 100vw, 50vw"
+                 width="1040" height="703" loading="lazy" decoding="async"
+                 alt="Эвакуатор с платформой на городской дороге">
+          </picture>
+          <div class="about__badge">
+            <svg><use href="#i-clock"/></svg>
+            <span><b>24/7</b>на связи</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <header class="section-head section-head--left reveal">
+            <p class="eyebrow">О компании</p>
+            <h2 class="section-title" id="about-title">Помогаем, когда автомобиль подвёл</h2>
+          </header>
+          <div class="about__text reveal">
+            <p>EVAK PRO - служба эвакуации, которая работает круглосуточно. Поломка ночью, авария на&nbsp;трассе или машина, которая не&nbsp;заводится во&nbsp;дворе, - просто позвоните или оставьте заявку, и&nbsp;диспетчер сразу займётся вашей ситуацией.</p>
+            <p>Мы относимся к&nbsp;каждому автомобилю как к&nbsp;своему: грузим аккуратно, надёжно фиксируем и&nbsp;везём без&nbsp;лишнего риска. Стоимость называем заранее и&nbsp;объясняем, из&nbsp;чего она складывается.</p>
+          </div>
+          <ul class="about__points reveal">
+            <li><span class="about__point-icon"><svg><use href="#i-clock"/></svg></span><span><b>Круглосуточная помощь</b>Принимаем заявки днём и ночью, в выходные и праздники.</span></li>
+            <li><span class="about__point-icon"><svg><use href="#i-shield"/></svg></span><span><b>Бережная погрузка</b>Фиксация колёс ремнями, аккуратная работа с повреждёнными авто.</span></li>
+            <li><span class="about__point-icon"><svg><use href="#i-calc"/></svg></span><span><b>Прозрачный расчёт</b>Цена согласуется до выезда - никаких доплат «по факту» без объяснения.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как мы работаем -->
+    <section class="section section--alt" id="steps" aria-labelledby="steps-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Как мы работаем</p>
+          <h2 class="section-title" id="steps-title">Четыре шага до&nbsp;решения проблемы</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <div class="step__num">01</div>
+            <div class="step__icon"><svg><use href="#i-doc"/></svg></div>
+            <h3 class="step__title">Заявка</h3>
+            <p class="step__text">Звоните диспетчеру, пишете в&nbsp;мессенджер или оставляете заявку на&nbsp;сайте.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step__num">02</div>
+            <div class="step__icon"><svg><use href="#i-calc"/></svg></div>
+            <h3 class="step__title">Расчёт стоимости</h3>
+            <p class="step__text">Уточняем адреса, тип авто и&nbsp;ситуацию - называем цену до&nbsp;выезда.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step__num">03</div>
+            <div class="step__icon"><svg><use href="#i-truck"/></svg></div>
+            <h3 class="step__title">Выезд эвакуатора</h3>
+            <p class="step__text">Направляем ближайший свободный эвакуатор и&nbsp;держим вас в&nbsp;курсе.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step__num">04</div>
+            <div class="step__icon"><svg><use href="#i-flag"/></svg></div>
+            <h3 class="step__title">Доставка автомобиля</h3>
+            <p class="step__text">Бережно грузим и&nbsp;доставляем автомобиль по&nbsp;нужному адресу.</p>
+          </li>
+        </ol>
+
+        <div class="call-guide reveal">
+          <div class="call-guide__head">
+            <h3 class="call-guide__title">Что сказать диспетчеру</h3>
+            <p class="call-guide__lead">Четыре ответа, и диспетчер сразу назовёт цену и подберёт машину.</p>
+          </div>
+          <ul class="call-guide__list">
+            <li><b>Где вы</b>Адрес или ориентир. В мессенджере можно отправить геопозицию.</li>
+            <li><b>Что случилось</b>Не заводится, ДТП, колёса заблокированы, застряли.</li>
+            <li><b>Какая машина</b>Марка, тип кузова, привод, есть ли повреждения.</li>
+            <li><b>Куда везти</b>Адрес сервиса, гаража или дома.</li>
+          </ul>
+          <a href="tel:+79990000000" class="btn btn--primary call-guide__btn">Позвонить диспетчеру</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section" id="advantages" aria-labelledby="adv-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Преимущества</p>
+          <h2 class="section-title" id="adv-title">Почему выбирают нас</h2>
+        </header>
+
+        <ul class="advantages">
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-clock"/></svg></div><div><h3 class="adv__title">Круглосуточная работа</h3><p class="adv__text">Заявки принимаются 24/7, включая ночь, выходные и&nbsp;праздники.</p></div></li>
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-bolt"/></svg></div><div><h3 class="adv__title">Оперативная подача</h3><p class="adv__text">Сразу после согласования направляем ближайший свободный эвакуатор.</p></div></li>
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-shield"/></svg></div><div><h3 class="adv__title">Бережная погрузка</h3><p class="adv__text">Надёжно фиксируем автомобиль и&nbsp;аккуратно работаем с&nbsp;повреждёнными авто.</p></div></li>
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-calc"/></svg></div><div><h3 class="adv__title">Предварительный расчёт стоимости</h3><p class="adv__text">Называем цену заранее и&nbsp;объясняем, из&nbsp;чего она складывается.</p></div></li>
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-lifebuoy"/></svg></div><div><h3 class="adv__title">Помощь в&nbsp;сложных ситуациях</h3><p class="adv__text">Заблокированные колёса, кювет, паркинг, автомобиль после ДТП.</p></div></li>
+          <li class="adv reveal"><div class="adv__icon"><svg><use href="#i-headset"/></svg></div><div><h3 class="adv__title">Удобная связь с&nbsp;диспетчером</h3><p class="adv__text">Телефон, мессенджеры или заявка на&nbsp;сайте - как вам удобнее.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-wrap">
+        <header class="section-head section-head--left reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section-title" id="faq-title">Частые вопросы</h2>
+          <p class="section-lead">Не нашли ответ? Позвоните диспетчеру - подскажем по&nbsp;вашей ситуации.</p>
+          <a href="#order" class="btn btn--outline faq-wrap__btn" data-intent="call">Задать вопрос в&nbsp;заявке</a>
+        </header>
+
+        <div class="faq reveal">
+          <div class="faq__item">
+            <h3 class="faq__q-wrap">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+                Сколько ждать эвакуатор?
+                <span class="faq__icon" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="faq__a" id="faq-1" role="region" aria-labelledby="faq-1-btn">
+              <div class="faq__a-inner"><p>Время подачи зависит от&nbsp;вашего местоположения, загруженности дорог и&nbsp;наличия свободных эвакуаторов рядом. Диспетчер назовёт ориентировочное время сразу при оформлении заявки.</p></div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q-wrap">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+                Может ли измениться стоимость?
+                <span class="faq__icon" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="faq__a" id="faq-2" role="region" aria-labelledby="faq-2-btn">
+              <div class="faq__a-inner"><p>Цену мы согласуем до&nbsp;выезда по&nbsp;данным из&nbsp;заявки. Она может измениться, только если ситуация на&nbsp;месте отличается от&nbsp;описанной - например, потребуется сложная погрузка. В&nbsp;этом случае мастер объяснит причину и&nbsp;согласует новую стоимость с&nbsp;вами до&nbsp;начала работ.</p></div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q-wrap">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+                Можно ли эвакуировать автомобиль с&nbsp;заблокированными колёсами?
+                <span class="faq__icon" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="faq__a" id="faq-3" role="region" aria-labelledby="faq-3-btn">
+              <div class="faq__a-inner"><p>Да. Для таких случаев используется специальное оборудование и&nbsp;техника погрузки. Укажите в&nbsp;заявке, что колёса заблокированы, - диспетчер подберёт подходящий эвакуатор.</p></div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q-wrap">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+                Работаете ли вы ночью?
+                <span class="faq__icon" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="faq__a" id="faq-4" role="region" aria-labelledby="faq-4-btn">
+              <div class="faq__a-inner"><p>Да, мы принимаем заявки круглосуточно, включая выходные и&nbsp;праздничные дни.</p></div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <h3 class="faq__q-wrap">
+              <button class="faq__q" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+                Можно ли заказать междугороднюю перевозку?
+                <span class="faq__icon" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>
+              </button>
+            </h3>
+            <div class="faq__a" id="faq-5" role="region" aria-labelledby="faq-5-btn">
+              <div class="faq__a-inner"><p>Да. Стоимость междугородней перевозки рассчитывается индивидуально - в&nbsp;зависимости от&nbsp;расстояния и&nbsp;типа автомобиля. Оставьте заявку с&nbsp;адресами отправления и&nbsp;доставки, и&nbsp;мы пришлём расчёт.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма заявки -->
+    <section class="section order" id="order" aria-labelledby="order-title">
+      <div class="order__bg" aria-hidden="true"></div>
+      <div class="container order__inner">
+        <div class="order__info reveal">
+          <p class="eyebrow">Заявка</p>
+          <h2 class="section-title" id="order-title">Вызвать эвакуатор или&nbsp;рассчитать стоимость</h2>
+          <p class="section-lead">Заполните форму - диспетчер перезвонит, уточнит детали и&nbsp;назовёт стоимость до&nbsp;выезда.</p>
+          <ul class="order__bullets">
+            <li><svg><use href="#i-check"/></svg>Бесплатная консультация и&nbsp;расчёт</li>
+            <li><svg><use href="#i-check"/></svg>Цена согласуется до&nbsp;выезда</li>
+            <li><svg><use href="#i-check"/></svg>Работаем круглосуточно</li>
+          </ul>
+          <a href="tel:+79990000000" class="order__phone">
+            <svg><use href="#i-phone"/></svg>
+            <span><small>Срочно? Звоните <em class="demo-chip">демо</em></small>+7 (999) 000-00-00</span>
+          </a>
+        </div>
+
+        <form class="form reveal" id="order-form" novalidate aria-describedby="form-demo-note">
+          <div class="form__tabs" role="radiogroup" aria-label="Цель заявки">
+            <label class="form__tab"><input type="radio" name="intent" value="call" checked><span>Вызов эвакуатора</span></label>
+            <label class="form__tab"><input type="radio" name="intent" value="calc"><span>Расчёт стоимости</span></label>
+          </div>
+
+          <div class="form__grid">
+            <div class="field">
+              <label class="field__label" for="f-name">Имя <span class="req" aria-hidden="true">*</span></label>
+              <input class="field__input" id="f-name" name="name" type="text" autocomplete="given-name" placeholder="Как к вам обращаться" required minlength="2" maxlength="60">
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-phone">Телефон <span class="req" aria-hidden="true">*</span></label>
+              <input class="field__input" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+
+            <div class="field field--icon field--full">
+              <label class="field__label" for="f-from">Откуда забрать автомобиль <span class="req" aria-hidden="true">*</span></label>
+              <div class="field__wrap">
+                <svg><use href="#i-pin"/></svg>
+                <input class="field__input" id="f-from" name="from" type="text" placeholder="Адрес или ориентир" required minlength="3" maxlength="200">
+              </div>
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+
+            <details class="form__more field--full">
+              <summary>Добавить подробности (необязательно)</summary>
+              <div class="form__grid">
+                <div class="field field--icon field--full">
+                  <label class="field__label" for="f-to">Куда доставить</label>
+                  <div class="field__wrap">
+                    <svg><use href="#i-flag"/></svg>
+                    <input class="field__input" id="f-to" name="to" type="text" placeholder="Сервис, гараж, адрес" minlength="3" maxlength="200">
+                  </div>
+                  <p class="field__error" aria-live="polite"></p>
+                </div>
+
+                <div class="field field--full">
+              <label class="field__label" for="f-car">Тип автомобиля</label>
+              <select class="field__input field__select" id="f-car" name="car">
+                <option value="">Не выбран</option>
+                <option>Легковой</option>
+                <option>Кроссовер</option>
+                <option>Внедорожник</option>
+                <option>Другое</option>
+              </select>
+            </div>
+
+            <div class="field field--full">
+              <label class="field__label" for="f-msg">Описание ситуации</label>
+              <textarea class="field__input field__textarea" id="f-msg" name="message" rows="4" maxlength="1000" placeholder="Например: не заводится, колёса заблокированы, машина на подземной парковке"></textarea>
+            </div>
+              </div>
+            </details>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" name="agree" id="f-agree" required>
+            <span class="checkbox__box" aria-hidden="true"><svg><use href="#i-check"/></svg></span>
+            <span class="checkbox__text">Согласен(на) на&nbsp;обработку персональных данных</span>
+          </label>
+          <p class="field__error field__error--agree" aria-live="polite"></p>
+
+          <button type="submit" class="btn btn--primary btn--lg btn--block form__submit">
+            Отправить заявку
+            <svg class="btn__icon"><use href="#i-arrow"/></svg>
+          </button>
+          <p class="form__demo" id="form-demo-note">Демо-режим: данные формы никуда не&nbsp;отправляются и&nbsp;не&nbsp;сохраняются.</p>
+
+          <div class="form__success" id="form-success" role="status" aria-live="polite" hidden>
+            <div class="form__success-icon"><svg><use href="#i-check"/></svg></div>
+            <h3>Заявка заполнена корректно</h3>
+            <p>Это <b>демонстрационный режим</b>: данные никуда не&nbsp;отправлены. На&nbsp;рабочем сайте заявка сразу придёт диспетчеру - на&nbsp;почту, в&nbsp;Telegram или CRM.</p>
+            <button type="button" class="btn btn--outline" id="form-reset">Заполнить заново</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <!-- DEMO: все контакты ниже - примеры, заменить на реальные -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2 class="section-title" id="contacts-title">Мы на связи круглосуточно</h2>
+          <p class="section-lead"><span class="demo-chip">демо</span> Все контакты на&nbsp;этой странице - демонстрационные и&nbsp;будут заменены реальными.</p>
+        </header>
+
+        <div class="contacts">
+          <a href="tel:+79990000000" class="contact-card contact-card--main reveal">
+            <span class="contact-card__icon"><svg><use href="#i-phone"/></svg></span>
+            <span class="contact-card__label">Телефон диспетчера</span>
+            <span class="contact-card__value">+7 (999) 000-00-00</span>
+            <span class="contact-card__note">Демо-номер</span>
+          </a>
+
+          <a href="#" class="contact-card reveal" data-demo-link="Telegram">
+            <span class="contact-card__icon contact-card__icon--tg"><svg><use href="#i-telegram"/></svg></span>
+            <span class="contact-card__label">Telegram</span>
+            <span class="contact-card__value">@evakpro_demo</span>
+            <span class="contact-card__note">Демо-аккаунт</span>
+          </a>
+
+          <a href="#" class="contact-card reveal" data-demo-link="WhatsApp">
+            <span class="contact-card__icon contact-card__icon--wa"><svg><use href="#i-whatsapp"/></svg></span>
+            <span class="contact-card__label">WhatsApp</span>
+            <span class="contact-card__value">+7 (999) 000-00-00</span>
+            <span class="contact-card__note">Демо-номер</span>
+          </a>
+
+          <div class="contact-card reveal">
+            <span class="contact-card__icon"><svg><use href="#i-clock"/></svg></span>
+            <span class="contact-card__label">Режим работы</span>
+            <span class="contact-card__value">24/7</span>
+            <span class="contact-card__note">Без выходных и&nbsp;праздников</span>
+          </div>
+
+          <a href="mailto:info@evakpro-demo.ru" class="contact-card reveal">
+            <span class="contact-card__icon"><svg><use href="#i-mail"/></svg></span>
+            <span class="contact-card__label">E-mail</span>
+            <span class="contact-card__value">info@evakpro-demo.ru</span>
+            <span class="contact-card__note">Демо-адрес</span>
+          </a>
+
+          <div class="contact-card reveal">
+            <span class="contact-card__icon"><svg><use href="#i-pin"/></svg></span>
+            <span class="contact-card__label">Зона работы</span>
+            <span class="contact-card__value">Казань и&nbsp;область</span>
+            <span class="contact-card__note">Условный пример</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="logo" aria-label="EVAK PRO - наверх">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="currentColor"/><path d="M8 26V15.5a1.5 1.5 0 0 1 1.5-1.5H20v12M20 18h5.5l4.5 5v3h-2.5M8 26h2.5m6 0h5" fill="none" stroke="#131518" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="13.5" cy="27" r="2.6" fill="none" stroke="#131518" stroke-width="2.4"/><circle cx="25" cy="27" r="2.6" fill="none" stroke="#131518" stroke-width="2.4"/></svg>
+          </span>
+          <span class="logo__text">EVAK<b>PRO</b></span>
+        </a>
+        <p>Эвакуация автомобилей круглосуточно. Бережная погрузка и&nbsp;прозрачный расчёт стоимости.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Меню в подвале">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">О нас</a>
+        <a href="#steps">Как работаем</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="footer__contact">
+        <a href="tel:+79990000000" class="footer__phone">+7 (999) 000-00-00</a>
+        <span class="demo-note">демо-номер · 24/7</span>
+        <a href="#order" class="btn btn--primary btn--sm" data-intent="call">Оставить заявку</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> EVAK PRO - демонстрационный проект. Название, контакты и&nbsp;цены являются примерами.</p>
+      <p class="footer__credits">Фото созданы нейросетью для демонстрации.</p>
+    </div>
+  </footer>
+
+  <!-- Нижняя панель на телефоне -->
+  <div class="mobile-bar" id="mobile-bar">
+    <a href="tel:+79990000000" class="mobile-bar__btn mobile-bar__btn--call"><svg><use href="#i-phone"/></svg>Позвонить</a>
+    <a href="#order" class="mobile-bar__btn mobile-bar__btn--order" data-intent="call">Вызвать эвакуатор</a>
+  </div>
+
+  <!-- Всплывающее уведомление -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
